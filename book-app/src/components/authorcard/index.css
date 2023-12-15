@@ -1,0 +1,42 @@
+.author-cards{
+    width: 100%;
+    background-color: azure;
+    border-radius: 10px;
+    border: 1px solid lightgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.author-card-heading{
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.main-author-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.author{
+    font-family: roboto;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+@media(min-width:768px){
+    .author-card-heading{
+        font-size: 15px;
+    }
+    .author{
+        font-size: 13px;
+    }
+    .author-cards{
+        width: 30%;
+        margin-left: 20px;
+        height: 100px;
+    }
+}
