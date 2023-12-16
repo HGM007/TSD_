@@ -1,4 +1,4 @@
-// src/Home.js
+
 import React, { useEffect, useState } from 'react';
 import { getBooks, getAuthors } from './api';
 import './Home.css'
