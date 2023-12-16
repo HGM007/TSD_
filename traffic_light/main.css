@@ -1,0 +1,155 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, aqua, aqua);
+    border-image-repeat:round;
+}
+
+.head h1{
+    width: 475px;
+    text-align: center;
+    background: -webkit-linear-gradient(red,yellow,green); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.outerbox{
+    background-color: black;
+    width: 475px;
+    height: 725px;
+    align-content:center;
+    /* border-radius: 23px; */
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    color: aqua;
+    
+}
+
+
+.innerbox{
+    background-image:linear-gradient(goldenrod,gold) ;
+    width: 175px;
+    height: 600px;
+    align-content: center;
+    margin-right: 50px;
+    border-radius: 45px;
+    display:flex;
+    flex-direction: column;
+}
+
+#sto{
+    width: 75px;
+    height: 75px;
+    border-radius: 360px;
+    background-color: gray;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 105px;
+    border-color: black;
+}
+
+#wai{
+    width: 75px;
+    height: 75px;
+    border-radius: 360px;
+    background-color: gray;
+    align-items: center;
+    margin-top: 105px;
+    margin-left: 50px;
+    border-color: black;
+}
+
+#gon{
+    width: 75px;
+    height: 75px;
+    border-radius: 360px;
+    background-color: gray;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 105px;
+    border-color: black;
+}
+
+.butbox{
+    width: 175px;
+    height: 600px;
+    margin-right: 25px;
+    border-radius: 15px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+#stop{
+    background-color:gray ;
+    color: black;
+    margin-top: 130px;
+    border-radius: 40px;
+    width: 131px;
+    height: 40px;
+    align-items: center;
+    margin-left: 25px;
+    border-color: black;
+    border-style: hidden;
+}
+
+#wait{
+    background-color:gray ;
+    color: black;
+    margin-top: 130px;
+    border-radius: 40px;
+    width: 131px;
+    height: 40px;
+    align-items: center;
+    margin-left: 25px;
+    border-color: black;
+    border-style: hidden;
+}
+
+#Go{
+    background-color:gray ;
+    color:black;
+    margin-top: 130px;
+    border-radius: 40px;
+    width: 131px;
+    height: 40px;
+    align-content: center;
+    margin-left: 25px;
+    border-color: black;
+    border-style:hidden;
+}
+
+.st:hover{
+    background-image: linear-gradient(rgb(213, 3, 3),rgb(251, 56, 56));
+    text-transform:uppercase;
+}
+
+.wa:hover{
+    background-image: linear-gradient(rgb(224, 224, 2),rgb(254, 254, 67));
+    text-transform:uppercase;
+}
+
+.go:hover{
+    background-image: linear-gradient(green,rgb(41, 243, 41));
+    text-transform:uppercase;
+}
+
+#reset{
+    background-color:gray ;
+    color:black;
+    margin-top: 2px;
+    border-radius: 40px;
+    width: 121px;
+    height: 40px;
+    align-content: center;
+    
+    border-color: black;
+    ;
+}
+
+.rt:hover{
+    background-image: linear-gradient(to bottom, blue, aqua);
+    text-transform:uppercase;
+}
